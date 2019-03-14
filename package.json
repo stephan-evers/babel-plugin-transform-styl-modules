@@ -1,0 +1,25 @@
+{
+  "name": "babel-plugin-transform-styl-modules",
+  "version": "1.0.2",
+  "description": "Transforms \"styl\" tagged template literals into css modules.",
+  "main": "source/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stephan-evers/babel-plugin-transform-styl-modules.git"
+  },
+  "keywords": [
+    "babel",
+    "stylus",
+    "postcss",
+    "css-modules",
+    "template-literal"
+  ],
+  "author": "Stephan Evers <me@severs.io>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "postcss": "^7.0.14",
+    "stylus": "^0.54.5",
+    "postcss-modules-sync": "^1.0.0"
+  }
+}
