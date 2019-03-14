@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-transform-styl-modules",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Transforms \"styl\" tagged template literals into css modules.",
   "main": "source/index.js",
   "repository": {
@@ -16,10 +16,12 @@
   ],
   "author": "Stephan Evers <me@severs.io>",
   "license": "MIT",
-  "devDependencies": {
-    "@babel/core": "^7.3.4",
-    "postcss": "^7.0.14",
+  "dependencies": {
     "stylus": "^0.54.5",
+    "postcss": "^7.0.14",
     "postcss-modules-sync": "^1.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4"
   }
 }
